@@ -25,6 +25,10 @@ output.css
 
 **Note: Visit my GitHub page for more information.**
 
+## Demo
+
+https://github.com/user-attachments/assets/5580a545-2586-41fc-851d-55941b3b57af
+
 ## Features ✨
 
 - **Conversion:**  
@@ -41,8 +45,6 @@ output.css
   Reprocesses files on change. 👀
 - **Git Hook:**  
   Sets up a sample pre-commit hook. 🔨
-
-
 
 ## 📦 Installation
 Install globally using npm:
