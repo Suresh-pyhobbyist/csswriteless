@@ -30,16 +30,6 @@ output.css
 ```
 
 **Note: Visit my GitHub page for more information.**
-
-## Advantages
-```
-🚀 Boost Productivity
-⏳ Save Time
-🖥️ Effortless Coding
-⚡ Write Less, Focus More
-
-"Just imagine writing more than 10,000 CSS codes and spending countless hours.
-Using my npm package, you can reduce your workload and save valuable time."
 ```
 
 
@@ -59,14 +49,27 @@ Using my npm package, you can reduce your workload and save valuable time."
   Reprocesses files on change. 👀
 - **Git Hook:**  
   Sets up a sample pre-commit hook. 🔨
+```
 
 ## 📦 Installation
 Install globally using npm:
 ```bash
 npm install -g csswriteless
-```
 
+```
+[![NPM](https://nodei.co/npm/csswriteless.png?compact=true)](https://nodei.co/npm/csswriteless/)
 ---
+
+
+## Advantages
+```
+🚀 Boost Productivity
+⏳ Save Time
+🖥️ Effortless Coding
+⚡ Write Less, Focus More
+
+"Just imagine writing more than 10,000 CSS codes and spending countless hours.
+Using my npm package, you can reduce your workload and save valuable time."
 
 ## 🛠️ Usage
 
