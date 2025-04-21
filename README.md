@@ -43,12 +43,15 @@ output.css
   Checks for balanced braces and flags unknown properties. ✅
 - **Formatting:**  
   Minifies or prettifies your CSS output. 🔧
-- **Batch Processing:**  
-  Works on individual files or whole directories. 📁
 - **Watch Mode:**  
   Reprocesses files on change. 👀
+
+Experimental Features
+--------------------------------------------------------------------------
+- **Batch Processing ⚠️**
+- Works on individual files or whole directories. 📁**
 - **Git Hook:**  
-  Sets up a sample pre-commit hook. 🔨
+- Sets up a sample pre-commit hook. 🔨
 ```
 
 ## 📦 Installation
