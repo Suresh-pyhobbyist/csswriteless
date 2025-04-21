@@ -1,4 +1,5 @@
-# csswriteless
+![Group 8](https://github.com/user-attachments/assets/dca0d135-1f03-40fc-a2cc-f1d8d0d7ccce)
+
 
 csswriteless.
 Stop bloating your code. Use csswriteless to write minimal shorthand that expands into full CSS. Enjoy clean, readable styles while writing way less code.
