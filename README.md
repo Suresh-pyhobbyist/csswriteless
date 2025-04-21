@@ -78,70 +78,316 @@ csswriteless -i input.css -o output.css --fix
 
 **CSS Shorthand Quick Learn Sheets / for more info - see my github repo**
 
-**Sheet 1: Core Box & Text**
+```markdown
+| CSS Property                     | Abbreviation       |
+|----------------------------------|--------------------|
+| align-content                    | aln-ctnt           |
+| align-items                      | aln-itms           |
+| align-self                       | aln-slf            |
+| animation                        | anim               |
+| animation-delay                  | anim-dly           |
+| animation-direction              | anim-dir           |
+| animation-duration               | anim-dur           |
+| animation-fill-mode              | anim-flm           |
+| animation-iteration-count        | anim-icnt          |
+| animation-name                   | anim-nm            |
+| animation-play-state             | anim-ps            |
+| animation-timing-function        | anim-tmf           |
+| backface-visibility              | bckf-vis           |
+| background                       | bg                 |
+| background-attachment            | bg-atch            |
+| background-blend-mode            | bg-blend           |
+| background-clip                  | bg-clip            |
+| background-color                 | bg-clr             |
+| background-image                 | bg-img             |
+| background-origin                | bg-org             |
+| background-position              | bg-pos             |
+| background-repeat                | bg-rpt             |
+| background-size                  | bg-sz              |
+| border                           | brd                |
+| border-bottom                    | brd-btm            |
+| border-bottom-color              | brd-btm-clr        |
+| border-bottom-left-radius        | brd-btm-lft-rds    |
+| border-bottom-right-radius       | brd-btm-rgt-rds    |
+| border-bottom-style              | brd-btm-sty        |
+| border-bottom-width              | brd-btm-wd         |
+| border-collapse                  | brd-clps           |
+| border-color                     | brd-clr            |
+| border-image                     | brd-img            |
+| border-image-outset              | brd-img-outst      |
+| border-image-repeat              | brd-img-rpt        |
+| border-image-slice               | brd-img-slc        |
+| border-image-source              | brd-img-src        |
+| border-image-width               | brd-img-wd         |
+| border-left                      | brd-lft            |
+| border-left-color                | brd-lft-clr        |
+| border-left-style                | brd-lft-sty        |
+| border-left-width                | brd-lft-wd         |
+| border-radius                    | brd-rds            |
+| border-right                     | brd-rgt            |
+| border-right-color               | brd-rgt-clr        |
+| border-right-style               | brd-rgt-sty        |
+| border-right-width               | brd-rgt-wd         |
+| border-spacing                   | brd-spc            |
+| border-style                     | brd-sty            |
+| border-top                       | brd-top            |
+| border-top-color                 | brd-top-clr        |
+| border-top-left-radius           | brd-top-lft-rds    |
+| border-top-right-radius          | brd-top-rgt-rds    |
+| border-top-style                 | brd-top-sty        |
+| border-top-width                 | brd-top-wd         |
+| border-width                     | brd-wd             |
+| bottom                           | bttm               |
+| box-decoration-break             | bx-dcr-brk         |
+| box-shadow                       | bx-shd             |
+| box-sizing                       | bx-sz              |
+| caption-side                     | cptn-sd            |
+| clear                            | clr                |
+| clip                             | clp                |
+| color                            | clr                |
+| column-count                     | col-cnt            |
+| column-fill                      | col-fl             |
+| column-gap                       | col-gp             |
+| column-rule                      | col-rl             |
+| column-rule-color                | col-rl-clr         |
+| column-rule-style                | col-rl-sty         |
+| column-rule-width                | col-rl-wd          |
+| column-span                      | col-spn            |
+| column-width                     | col-wd             |
+| columns                          | cols               |
+| content                          | cntnt              |
+| counter-increment                | ctr-incr           |
+| counter-reset                    | ctr-rst            |
+| cursor                           | crsr               |
+| direction                        | dir                |
+| display                          | dsp                |
+| empty-cells                      | empty-c            |
+| filter                           | fltr               |
+| flex                             | flx                |
+| flex-basis                       | flx-bs             |
+| flex-direction                   | flx-dir            |
+| flex-flow                        | flx-flw            |
+| flex-grow                        | flx-grw            |
+| flex-shrink                      | flx-shrk           |
+| flex-wrap                        | flx-wrp            |
+| float                            | flt                |
+| font                             | fnt                |
+| font-family                      | fnt-fmly           |
+| font-size                        | fnt-sz             |
+| font-size-adjust                 | fnt-sz-adj         |
+| font-stretch                     | fnt-strtch         |
+| font-style                       | fnt-stl            |
+| font-variant                     | fnt-vrnt           |
+| font-weight                      | fnt-wgt            |
+| gap                              | gp                 |
+| grid                             | grd                |
+| grid-area                        | grd-ara            |
+| grid-auto-columns                | grd-auto-c         |
+| grid-auto-flow                   | grd-auto-flw       |
+| grid-auto-rows                   | grd-auto-r         |
+| grid-column                      | grd-col            |
+| grid-column-end                  | grd-col-end        |
+| grid-column-gap                  | grd-col-gp         |
+| grid-column-start                | grd-col-st         |
+| grid-gap                         | grd-gp             |
+| grid-row                         | grd-row            |
+| grid-row-end                     | grd-row-end        |
+| grid-row-gap                     | grd-row-gp         |
+| grid-row-start                   | grd-row-st         |
+| grid-template                    | grd-tmplt          |
+| grid-template-areas              | grd-tmplt-aras     |
+| grid-template-columns            | grd-tmplt-cols     |
+| grid-template-rows               | grd-tmplt-rows     |
+| height                           | ht                 |
+| hyphens                          | hypns              |
+| justify-content                  | jstf-ctnt          |
+| left                             | lft                |
+| letter-spacing                   | ltr-spc            |
+| line-height                      | ln-ht              |
+| list-style                       | lst-stl            |
+| list-style-image                 | lst-stl-img        |
+| list-style-position              | lst-stl-ps         |
+| list-style-type                  | lst-stl-ty         |
+| margin                           | mgn                |
+| margin-bottom                    | mgn-btm            |
+| margin-left                      | mgn-lft            |
+| margin-right                     | mgn-rgt            |
+| margin-top                       | mgn-top            |
+| max-height                       | max-ht             |
+| max-width                        | max-wd             |
+| min-height                       | min-ht             |
+| min-width                        | min-wd             |
+| object-fit                       | obj-ft             |
+| object-position                  | obj-ps             |
+| opacity                          | opcty              |
+| order                            | ordr               |
+| orphans                          | orphns             |
+| outline                          | otl                |
+| outline-color                    | otl-clr            |
+| outline-offset                   | otl-offst          |
+| outline-style                    | otl-stl            |
+| outline-width                    | otl-wd             |
+| overflow                         | ovflw              |
+| overflow-wrap                    | ovflw-wrp          |
+| overflow-x                       | ovflw-x            |
+| overflow-y                       | ovflw-y            |
+| padding                          | pdng               |
+| padding-bottom                   | pdng-btm           |
+| padding-left                     | pdng-lft           |
+| padding-right                    | pdng-rgt           |
+| padding-top                      | pdng-top           |
+| page-break-after                 | pg-brk-aftr        |
+| page-break-before                | pg-brk-bfr         |
+| page-break-inside                | pg-brk-insd        |
+| perspective                      | prspctv            |
+| perspective-origin               | prspctv-org        |
+| position                         | ps                 |
+| quotes                           | qts                |
+| resize                           | rsz                |
+| right                            | rght               |
+| row-gap                          | row-gp             |
+| scroll-behavior                  | scrl-bhv           |
+| table-layout                     | tbl-lyot           |
+| text-align                       | txt-aln            |
+| text-align-last                  | txt-aln-lst        |
+| text-decoration                  | txt-dcr            |
+| text-decoration-color            | txt-dcr-clr        |
+| text-decoration-line             | txt-dcr-lne        |
+| text-decoration-style            | txt-dcr-stl        |
+| text-indent                      | txt-indnt          |
+| text-justify                     | txt-jstfy          |
+| text-overflow                    | txt-ovflw          |
+| text-shadow                      | txt-shd            |
+| text-transform                   | txt-trnsf          |
+| top                              | tp                 |
+| transform                        | trnsfrm            |
+| transform-origin                 | trnsfrm-org        |
+| transform-style                  | trnsfrm-stl        |
+| transition                       | trnstn             |
+| transition-delay                 | trnstn-dly         |
+| transition-duration              | trnstn-dur         |
+| transition-property              | trnstn-prpty       |
+| transition-timing-function       | trnstn-tmf         |
+| unicode-bidi                     | uncd-bdi           |
+| user-select                      | usr-slt            |
+| vertical-align                   | vrtl-aln           |
+| visibility                       | vsblty             |
+| white-space                      | wht-spc            |
+| widows                           | wdws               |
+| width                            | wd                 |
+| word-break                       | wrd-brk            |
+| word-spacing                     | wrd-spc            |
+| word-wrap                        | wrd-wrp            |
+| writing-mode                     | wrt-mode           |
+| z-index                          | zind               |
+```
+---
 
-| Category           | Common Shorthand/Prefix | Examples                                     |
-|--------------------|-------------------------|----------------------------------------------|
-| Box Model          | `mgn`                   | `margin`, `margin-top`, `margin-left`        |
-| Box Model          | `pdng`                  | `padding`, `padding-bottom`, `padding-right` |
-| Box Model          | `brd`                   | `border`, `border-radius`, `border-top`      |
-| Box Model          | `wd`                    | `width`, `min-width`, `max-width`           |
-| Box Model          | `ht`                    | `height`, `min-height`, `max-height`         |
-| Text               | `fnt`                   | `font`, `font-size`, `font-family`           |
-| Text               | `txt-`                  | `text-align`, `text-decoration`, `text-shadow` |
+### Vendor Prefixes – WebKit
 
-**Sheet 2: Background & Effects**
+```
+| CSS Property                         | Abbreviation        |
+|--------------------------------------|---------------------|
+| -webkit-animation                    | wkt-anim            |
+| -webkit-animation-delay              | wkt-anim-dly        |
+| -webkit-animation-direction          | wkt-anim-dir        |
+| -webkit-animation-duration           | wkt-anim-dur        |
+| -webkit-animation-fill-mode          | wkt-anim-flm        |
+| -webkit-animation-iteration-count    | wkt-anim-icnt       |
+| -webkit-animation-name               | wkt-anim-nm         |
+| -webkit-animation-play-state         | wkt-anim-ps         |
+| -webkit-animation-timing-function    | wkt-anim-tmf        |
+| -webkit-appearance                   | wkt-apprnc          |
+| -webkit-backface-visibility          | wkt-bckf-vis        |
+| -webkit-background-clip              | wkt-bg-clip         |
+| -webkit-background-origin            | wkt-bg-org          |
+| -webkit-background-size              | wkt-bg-sz           |
+| -webkit-border-bottom-left-radius    | wkt-brd-btm-lft-rds |
+| -webkit-border-bottom-right-radius   | wkt-brd-btm-rgt-rds |
+| -webkit-border-image                 | wkt-brd-img         |
+| -webkit-border-radius                | wkt-brd-rds         |
+| -webkit-border-top-left-radius       | wkt-brd-top-lft-rds |
+| -webkit-border-top-right-radius      | wkt-brd-top-rgt-rds |
+| -webkit-box-shadow                   | wkt-bx-shd          |
+| -webkit-box-sizing                   | wkt-bx-sz           |
+| -webkit-filter                      | wkt-fltr            |
+| -webkit-flex                         | wkt-flx             |
+| -webkit-flex-basis                   | wkt-flx-bs          |
+| -webkit-flex-direction               | wkt-flx-dir         |
+| -webkit-flex-flow                    | wkt-flx-flw         |
+| -webkit-flex-grow                    | wkt-flx-grw         |
+| -webkit-flex-shrink                  | wkt-flx-shrk        |
+| -webkit-flex-wrap                    | wkt-flx-wrp         |
+| -webkit-justify-content             | wkt-jstf-ctnt       |
+| -webkit-perspective                 | wkt-prspctv         |
+| -webkit-perspective-origin          | wkt-prspctv-org     |
+| -webkit-transform                   | wkt-trnsfrm         |
+| -webkit-transform-origin            | wkt-trnsfrm-org     |
+| -webkit-transform-style             | wkt-trnsfrm-stl     |
+| -webkit-transition                  | wkt-trnstn          |
+| -webkit-transition-delay            | wkt-trnstn-dly      |
+| -webkit-transition-duration         | wkt-trnstn-dur      |
+| -webkit-transition-property         | wkt-trnstn-prpty    |
+| -webkit-transition-timing-function  | wkt-trnstn-tmf      |
+```
 
-| Category           | Common Shorthand/Prefix | Examples                                            |
-|--------------------|-------------------------|-----------------------------------------------------|
-| Background         | `bg-`                   | `background-color`, `background-image`, `background-size` |
-| Animation          | `anim-`                 | `animation-delay`, `animation-duration`, `animation-name` |
-| Transition         | `trnstn-`               | `transition-property`, `transition-duration`, `transition-delay` |
-
-**Sheet 3: Flex & Grid Layout**
-
-| Category           | Common Shorthand/Prefix | Examples                                          |
-|--------------------|-------------------------|---------------------------------------------------|
-| Flexbox            | `aln-`                  | `align-items`, `align-content`, `align-self`      |
-| Flexbox            | `jstf-`                 | `justify-content`, `justify-items`, `justify-self` |
-| Flexbox            | `flx-`                  | `flex-direction`, `flex-wrap`, `flex-basis`       |
-| Grid               | `grd-`                  | `grid-column`, `grid-template-areas`, `grid-gap`  |
-| Layout (General)   | `gp`                    | `gap`, `column-gap`, `row-gap`                    |
-
-**Sheet 4: Lists, Outlines, Transforms, Perspective**
-
-| Category           | Common Shorthand/Prefix | Examples                                         |
-|--------------------|-------------------------|--------------------------------------------------|
-| Lists              | `lst-stl-`              | `list-style-type`, `list-style-position`, `list-style-image` |
-| Outline            | `otl-`                  | `outline-color`, `outline-style`, `outline-width` |
-| Transform          | `trnsfrm-`              | `transform-origin`, `transform-style`, `transform` |
-| Perspective        | `prspctv-`              | `perspective`, `perspective-origin`              |
-
-**Sheet 5: Scroll, Overflow, Mask, Clip**
-
-| Category           | Common Shorthand/Prefix | Examples                                            |
-|--------------------|-------------------------|-----------------------------------------------------|
-| Scroll             | `scrl-`                 | `scroll-behavior`, `scroll-margin`, `scroll-padding` |
-| Scroll             | `ovrlscrl-`             | `overscroll-behavior`, `overscroll-behavior-x`      |
-| Overflow           | `ovflw-`                | `overflow-x`, `overflow-y`, `overflow-wrap`         |
-| Mask               | `msk-`                  | `mask-image`, `mask-border`, `mask-position`        |
-| Clip               | `clp-`                  | `clip-path`, `clip`                               |
-
-**Sheet 6: Common & WebKit**
-
-| Category        | Common Shorthand/Prefix | Examples                      |
-|-----------------|-------------------------|-------------------------------|
-| Common          | `clr`                   | `color`, `clear`              |
-| Common          | `dir`                   | `direction`                   |
-| Common          | `dsp`                   | `display`                     |
-| Common          | `flt`                   | `float`                       |
-| Common          | `ps`                    | `position`                    |
-| Common          | `tp`                    | `top`                         |
-| Common          | `bttm`                  | `bottom`                      |
-| Common          | `lft`                   | `left`                        |
-| Common          | `rght`                  | `right`                       |
-| Vendor Prefix   | `wkt-`                  | `-webkit-animation`, `-webkit-box-shadow` |
-
+```
+| CSS Property                      | Abbreviation      |
+|-----------------------------------|-------------------|
+| accent-color                      | acnt-clr          |
+| appearance                        | apprnc            |
+| backdrop-filter                   | bkd-fltr          |
+| block-size                        | blk-sz            |
+| clip-path                         | clp-ps            |
+| color-adjust                      | clr-adj           |
+| contain                           | cntn              |
+| content-visibility                | cntnt-vis         |
+| counter-set                       | ctr-set           |
+| inset                             | ins               |
+| inset-block                       | ins-blk           |
+| inset-inline                      | ins-inn           |
+| justify-items                     | jstf-itms         |
+| justify-self                      | jstf-slf          |
+| mask                              | msk               |
+| mask-border                       | msk-brd           |
+| mask-border-mode                  | msk-brd-md        |
+| mask-border-outset                | msk-brd-out       |
+| mask-border-repeat                | msk-brd-rpt       |
+| mask-border-slice                 | msk-brd-slc       |
+| mask-border-source                | msk-brd-src       |
+| mask-border-width                 | msk-brd-wd        |
+| mask-clip                         | msk-clp           |
+| mask-composite                    | msk-cmpst         |
+| mask-image                        | msk-img           |
+| mask-mode                         | msk-md            |
+| mask-position                     | msk-ps            |
+| mask-size                         | msk-sz            |
+| max-block-size                    | max-blk-sz        |
+| max-inline-size                   | max-inn-sz        |
+| min-block-size                    | min-blk-sz        |
+| min-inline-size                   | min-inn-sz        |
+| overflow-anchor                   | ovflw-anch        |
+| overscroll-behavior               | ovrlscrl-bhv      |
+| overscroll-behavior-x             | ovrlscrl-x        |
+| overscroll-behavior-y             | ovrlscrl-y        |
+| scroll-margin                     | scrl-mgn          |
+| scroll-margin-block               | scrl-mgn-blk      |
+| scroll-margin-block-end           | scrl-mgn-blk-end  |
+| scroll-margin-block-start         | scrl-mgn-blk-st   |
+| scroll-margin-inline              | scrl-mgn-inn      |
+| scroll-margin-inline-end          | scrl-mgn-inn-end  |
+| scroll-margin-inline-start        | scrl-mgn-inn-st   |
+| scroll-padding                    | scrl-pdng         |
+| scroll-padding-block              | scrl-pdng-blk     |
+| scroll-padding-block-end          | scrl-pdng-blk-end |
+| scroll-padding-block-start        | scrl-pdng-blk-st  |
+| scroll-padding-inline             | scrl-pdng-inn     |
+| scroll-padding-inline-end         | scrl-pdng-inn-end |
+| scroll-padding-inline-start       | scrl-pdng-inn-st  |
+| scroll-snap-align                 | scrl-snp-aly      |
+| scroll-snap-stop                  | scrl-snp-stp      |
+| scroll-snap-type                  | scrl-snp-typ      |
+```
 
 ## License 📄
 **MIT**
