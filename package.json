@@ -1,0 +1,44 @@
+{
+  "name": "csswriteless",
+  "version": "1.0.0",
+  "description": "Use csswriteless to write minimal shorthand that expands into full CSS",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "csswriteless": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chokidar": "^3.5.3",
+    "cli-highlight": "^2.1.11",
+    "commander": "^10.0.0",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "author": "suresh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suresh-pyhobbyist/csswriteless.git"
+  },
+  "keywords": [
+    "cli",
+    "css",
+    "shorthand",
+    "file-watcher",
+    "logging",
+    "css",
+    "minifer",
+    "framework"
+  ],
+  "homepage": "https://github.com/Suresh-pyhobbyist/csswriteless#readme",
+  "bugs": {
+    "url": "https://github.com/Suresh-pyhobbyist/csswriteless/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
