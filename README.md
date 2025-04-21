@@ -5,6 +5,11 @@ Stop bloating your code. Use csswriteless to write minimal shorthand that expand
 
 **Note: Visit my GitHub page for more information.**
 
+
+## Demo
+
+https://github.com/user-attachments/assets/5580a545-2586-41fc-851d-55941b3b57af
+
 ## This is How csswriteless Works!
 
 ```
@@ -24,10 +29,6 @@ output.css
 ```
 
 **Note: Visit my GitHub page for more information.**
-
-## Demo
-
-https://github.com/user-attachments/assets/5580a545-2586-41fc-851d-55941b3b57af
 
 ## Features ✨
 
