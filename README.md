@@ -73,7 +73,7 @@ npm install -g csswriteless
 
 "Just imagine writing more than 10,000 CSS codes and spending countless hours.
 Using my npm package, you can reduce your workload and save valuable time."
-
+```
 ## 🛠️ Usage
 
 ### Basic Command
